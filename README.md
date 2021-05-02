@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Github Repository](https://your-solution-url.com)
--   Live Site URL: [Netlify](https://your-live-site-url.com)
+-   Solution URL: [Github Repository](https://github.com/juani2/four-card-feature-section-master--solution)
+-   Live Site URL: [Netlify](https://wizardly-poincare-e82688.netlify.app/)
 
 ## My process
 
