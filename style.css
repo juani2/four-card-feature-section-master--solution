@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-red: hsl(0, 78%, 62%);
+    --color-cyan: hsl(180, 62%, 55%);
+    --color-orange: hsl(34, 97%, 64%);
+    --color-blue: hsl(212, 86%, 64%);
+    --color-very-dark-blue: hsl(234, 12%, 34%);
+    --color-grayish-blue: hsl(229, 6%, 66%);
+    --color-very-light-gray: hsl(0, 0%, 98%);
+}
+
+html, body {
+    font-size: 15px;
+    font-family: 'Poppins','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-very-dark-blue);
+}
+
+body {
+    background-color: var(--color-very-light-gray);
+}
+
+.four-card-feature-section {
+    padding: 4rem 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.section-header {
+    max-width: 55ch;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.header-headline {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 1rem;
+}
+
+.header-content {
+    font-weight: 200;
+}
+
+.main-headline {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.sub-headline {
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-content > * {
+    flex: 0 1 23.33rem;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1.667rem;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card:nth-child(1){
+    transform: translateY(50%);
+}
+.card:nth-child(3){
+    transform: translateY(50%);
+}
+
+.card-border-cyan {
+    border-top: 5px solid var(--color-cyan);
+}
+.card-border-red {
+    border-top: 5px solid var(--color-red);
+}
+.card-border-orange {
+    border-top: 5px solid var(--color-orange);
+}
+.card-border-blue {
+    border-top: 5px solid var(--color-blue);
+}
+
+.card-content {
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-footer-img {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:1280px) {
+    .card:nth-child(1){
+        transform: translateY(0%);
+    }
+    .card:nth-child(3){
+        transform: translateY(0%);
+    }
+}
